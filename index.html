@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="icons">
+                <img src="img/web-design-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum molestias neque ipsum architecto commodi in adipisci harum, iure voluptate ducimus officia corporis autem quas sit accusantium? Ex et fugit, iure unde quisquam assumenda repellendus quis sint minima laboriosam cum dolore consequatur delectus dolorum quasi animi? Iusto nihil, iste officiis, earum hic veritatis reiciendis dicta, saepe molestiae et illum sapiente?</p>
+            </div>
+            <a class="more" href="#"></a>
+        </div>
+        <div class="card">
+            <div class="icons">
+                <img src="img/web-development-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Web - developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum molestias neque ipsum architecto commodi in adipisci harum, iure voluptate ducimus officia corporis autem quas sit accusantium? Ex et fugit, iure unde quisquam assumenda repellendus quis sint minima laboriosam cum dolore consequatur delectus dolorum quasi animi? Iusto nihil, iste officiis, earum hic veritatis reiciendis dicta, saepe molestiae et illum sapiente?</p>
+            </div>
+            <a class="more" href="#"></a>
+        </div>
+        <div class="card">
+            <div class="icons">
+                <img src="img/web-design-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Web - developer</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum molestias neque ipsum architecto commodi in adipisci harum, iure voluptate ducimus officia corporis autem quas sit accusantium? Ex et fugit, iure unde quisquam assumenda repellendus quis sint minima laboriosam cum dolore consequatur delectus dolorum quasi animi? Iusto nihil, iste officiis, earum hic veritatis reiciendis dicta, saepe molestiae et illum sapiente?</p>
+            </div>
+            <a class="more" href="#"></a>
+        </div>
+        <div class="card">
+            <div class="icons">
+                <img src="img/web-development-icon.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Web - design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque illum molestias neque ipsum architecto commodi in adipisci harum, iure voluptate ducimus officia corporis autem quas sit accusantium? Ex et fugit, iure unde quisquam assumenda repellendus quis sint minima laboriosam cum dolore consequatur delectus dolorum quasi animi? Iusto nihil, iste officiis, earum hic veritatis reiciendis dicta, saepe molestiae et illum sapiente?</p>
+            </div>
+            <a class="more" href="#"></a>
+        </div>
+
+
+    </div>
+    <script>
+        //captura el buton 
+        let more = document.querySelectorAll('.more');
+        for ( let i = 0; i<more.length; i++){
+            more[i].addEventListener('click',function(){
+            more[i].parentNode.classList.toggle('active');
+        })
+            
+        }       
+
+    </script>
+</body>
+
+</html>
